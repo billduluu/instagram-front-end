@@ -1,8 +1,5 @@
 import React from "react";
-import "./App.css";
 
-const SignUpPage = () => {
-  return <div className="App">Sign In</div>;
+export const SignUp = () => {
+  return <div className="App">Sign un</div>;
 };
-
-export default SignUpPage;
