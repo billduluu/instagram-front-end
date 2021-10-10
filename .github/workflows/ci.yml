@@ -10,6 +10,10 @@ jobs:
 
     runs-on: ubuntu-latest
     
+    strategy:
+      matrix:
+        node-version: [10.x, 8.x]
+    
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -26,6 +30,6 @@ jobs:
       env:
         CI: true
       
-    # - name: yarn build
-    #   run: |
-    #     yarn run build --if-present
+    - name: yarn build
+      run: |
+        yarn run build --if-present
