@@ -1,0 +1,26 @@
+.profile-header {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+}
+.profile-photo {
+  max-height: 170px;
+  border-radius: 50%;
+}
+
+.status-header {
+  display: "flex";
+  flex-direction: "row";
+  margin-right: "10px";
+  align-items: "center";
+  justify-content: "space-between";
+}
+
+.text-status {
+  display: "flex";
+  flex-direction: "row";
+  align-items: "center";
+  justify-content: "space-between";
+}

@@ -1,24 +1,26 @@
-import { Button, Box } from "@material-ui/core";
 import React from "react";
+import "./style.css";
+import { StoryBar } from "../../components/index";
+import Grid from "@material-ui/core/Grid";
 
-const TimeLinePage = () => {
+const Timeline = () => {
   return (
-    <>
-      <div className="App">Time line</div>
-      <Box component="span" m={1} color="text.primary">
-        <Button />
-      </Box>
-      <Button
-        variant="contained"
-        color="primary"
-        onClick={() => {
-          alert("clicked");
-        }}
-      >
-        Sign in
-      </Button>
-    </>
+    <div>
+      <Grid container>
+        <Grid item xs={2}></Grid>
+        <Grid item xs={6} className="maincontent-container">
+          <div>
+            <StoryBar />
+            {/* post component end orj irne */}
+          </div>
+        </Grid>
+        <Grid item xs={2}>
+          {/* profile bolon suggest friends gardg heseg end irne */}
+        </Grid>
+        <Grid item xs={2}></Grid>
+      </Grid>
+    </div>
   );
 };
 
-export default TimeLinePage;
+export default Timeline;

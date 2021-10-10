@@ -1,0 +1,104 @@
+.navbar__barContent {
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+.navbar_logo {
+  margin-top: 10px;
+}
+.navbar__img {
+  margin: 15px 10px;
+  max-width: 25px;
+  max-height: 25px;
+}
+.navbar__searchBar {
+  height: 30px;
+  width: 215px;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+.icon {
+  margin-right: 1em;
+  height: 55px;
+  width: 30px;
+}
+.menuIcon {
+  padding-right: "10px";
+  text-decoration: "none";
+  color: "inherit";
+  margin: "2px";
+}
+
+.story-container {
+  height: 120px;
+  width: 615px;
+  background-color: white;
+  border: 1px solid #dbdddb;
+  margin-top: 25px;
+  display: flex;
+  overflow-x: scroll;
+}
+.story-container::-webkit-scrollbar {
+  display: none;
+}
+
+.storybar-status {
+  min-width: 55px;
+  min-height: 55px;
+  border: 3px solid #df3968;
+}
+.story {
+  margin: 25px 10px;
+}
+.story-text {
+  font-size: 12px;
+  max-width: 60px;
+  overflow-x: hidden;
+  text-align: center;
+}
+.statusbar-upload {
+  margin: 30px 20px 30px 30px;
+}
+.upload-story {
+  margin: 40px 10px;
+  border: none;
+  background-color: white;
+}
+.upload-story :hover {
+  cursor: pointer;
+}
+
+.photo-card {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: space-between;
+}
+.photo-card-space {
+  margin-bottom: 2%;
+}
+.card-of-photos {
+  max-width: 260px;
+  max-height: 260px;
+  border-radius: 1%;
+}
+.bio-card {
+  display: "flex";
+  flex-direction: "row";
+  align-items: "center";
+  justify-content: "stretch";
+}
+.page-link {
+  text-decoration: none;
+  color: inherit;
+}
+.header-icon-menu {
+  display: flex;
+  flex: 1;
+  padding: 2px;
+}
